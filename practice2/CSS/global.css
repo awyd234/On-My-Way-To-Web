@@ -1,0 +1,13 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Arial,ËÎÌו;
+}
+
+#header{
+	width:960px;
+	height:800px;
+	background:#66FF99;
+	text-align:center;
+}

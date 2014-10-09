@@ -1,0 +1,206 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	font:12px Arial "ËÎÌו";
+	text-align:center;
+	-webkit-text-size-adjust:none;
+}
+
+*html body{
+	margin-right:3px;
+}
+
+#container{
+	height:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#outer{
+	width:320px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+	background:#ccc;
+	height:480px;
+	overflow:hidden;
+}
+
+#logo{
+	display:inline;
+	width:40px;
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:14px;
+	margin-right:-2px;
+	float:left;
+	background:url(../images/calculator.png) no-repeat center;
+}
+
+#header{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	height:40px;
+}
+
+#header h3{
+	margin:0px;
+	font-size:18px;
+	padding-top:6px;
+	padding-bottom:6px;
+	text-align:left;
+	line-height:28px;
+}
+
+#inner{
+	width:299px;
+	margin-left:10px;
+	margin-right:10px;
+	height:430px;
+	background:#D9E4F1;
+}
+
+#menu{
+	width:100%;
+	float:left;
+	border-bottom:1px solid #ccc;
+	height:39px;
+	background:#D6DDEF;
+}
+
+#menu ul{
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+}
+
+#menu li{
+	list-style:none;
+	width:60px;
+	text-align:center;
+	float:left;
+	font-weight:bold;
+}
+
+#menu li a{
+	text-decoration:none;
+	color:black;
+	font-size:19px;
+}
+
+#menu li a:hover{
+	border:1px solid #ccc;
+	padding-bottom:4px;
+	padding-top:4px;
+}
+
+#content{
+	width:100%;
+	height:430px;
+	font-weight:normal;
+}
+
+#input{
+	width:100%;
+}
+
+input{
+	width:256px;
+	margin:0px;
+	margin-left:20px;
+	margin-right:24px;
+	height:50px;
+}
+
+#keyboard #keys ul{
+	margin:0px;
+	margin-left:10px;
+	padding:0px;
+}
+
+#keyboard #keys li{
+	float:left;
+	height:40px;
+	list-style:none;
+	width:40px;
+	text-align:center;
+	display:inline;
+	padding:0px;
+}
+
+#keyboard #keys li a:hover,#keyboard #keys #zero a:hover{
+	border:2px solid #FFCC33;
+	background:#FFFF33;
+}
+
+.nav{
+	float:left;
+	width:100%;
+	height:10px;
+	clear:both;
+	overflow:hidden;
+}
+
+#last{
+	float:left;
+	margin:0px;
+}
+
+#keyboard #keys li{
+	margin-top:2px;
+}
+
+.key,#keyboard #keys #zero,#keyboard #equal #equal_li{
+	width:40px;
+	height:36px;
+	background:#CCCCFF;
+	float:left;
+	display:inline;
+	margin-left:12px;
+	}
+
+#keyboard #equal #equal_li{
+	float:right;
+	margin-right:29px;
+	*margin-right:10px;
+	*bottom:94px;
+	position:relative;
+	}
+
+.key a,#keyboard #keys #zero a,#equal_li a{
+	border:2px solid #ccc;
+	font-size:18px;
+	width:40px;
+	display:block;
+	background:#CCCCFF;
+	line-height:36px;
+	color:black;
+	text-decoration:none;
+	} 
+	
+#equal_li a{
+	line-height:88px;
+	}
+	
+#keyboard #keys #zero{
+	width:94px;
+	margin-right:-2px;
+	*margin-right:0px;
+}
+
+#zero a{
+	width:94px;
+	padding-left:26px;
+	padding-right:26px;
+	*padding-left:28px;
+	*padding-right:28px;
+	}
+	
